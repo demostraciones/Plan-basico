@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Pagos</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+        body { background: #0f172a; color: #f8fafc; padding: 25px 15px; text-align: center; }
+        .profile { margin-bottom: 20px; }
+        .profile img { width: 90px; height: 90px; border-radius: 50%; border: 3px solid #38bdf8; margin-bottom: 10px; }
+        .profile h1 { font-size: 1.3rem; margin-bottom: 5px; }
+        .profile p { color: #94a3b8; font-size: 0.9rem; }
+        
+        .links { max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+        .btn { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 0.95rem; color: #fff; transition: 0.2s; }
+        .btn-ws { background: #22c55e; }
+        .btn-pay { background: #0284c7; }
+        .btn-sec { background: #334155; }
+        
+        .bank-info { background: #1e293b; border: 1px solid #334155; padding: 15px; border-radius: 10px; margin-top: 15px; font-size: 0.85rem; color: #cbd5e1; }
+        .bank-info strong { color: #38bdf8; display: block; margin-top: 5px; font-size: 1rem; }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <img src="https://via.placeholder.com/90" alt="Logo / Foto">
+        <h1>Servicios Integrales</h1>
+        <p>Atención inmediata y presupuestos sin cargo</p>
+    </div>
+
+    <div class="links">
+        <a href="https://wa.me/5491100000000?text=Hola,%20quisiera%20hacer%20una%20consulta" class="btn btn-ws" target="_blank">
+            💬 Contactar por WhatsApp
+        </a>
+
+        <div class="bank-info">
+            <p>💳 **Datos para Transferencias Directas**</p>
+            <p>Alias Mercado Pago / CBU:</p>
+            <strong>MI.ALIAS.MP</strong>
+            <p style="margin-top:5px; font-size:0.75rem;">Titular: Nombre Apellido</p>
+        </div>
+
+        <a href="tel:5491100000000" class="btn btn-sec">📞 Llamada Directa</a>
+        <a href="https://maps.google.com" class="btn btn-sec" target="_blank">📍 Cómo Llegar / Ubicación</a>
+    </div>
+
+</body>
+</html>
